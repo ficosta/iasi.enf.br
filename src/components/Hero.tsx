@@ -2,6 +2,7 @@ import { MessageCircle, Heart, Shield, Clock } from 'lucide-react';
 import { contactInfo } from '../data/content';
 
 const Hero = () => {
+  const profileImage = `${import.meta.env.BASE_URL}profile.png`;
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${contactInfo.whatsapp}`, '_blank');
   };
@@ -22,7 +23,7 @@ const Hero = () => {
               {/* Main circle */}
               <div className="relative w-[280px] h-[280px] md:w-[240px] md:h-[240px] lg:w-[300px] lg:h-[300px] rounded-full overflow-hidden border-8 border-white shadow-2xl bg-gradient-to-br from-primary/5 to-secondary/5">
                 <img
-                  src="/profile.png"
+                  src={profileImage}
                   alt="Karla Alexandra Iasi - Enfermeira e Cuidadora de Idosos"
                   className="w-full h-full object-cover"
                 />
