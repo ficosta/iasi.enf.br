@@ -6,17 +6,18 @@ export const services = [
       'Acompanhamento em internações',
       'Presença durante exames e consultas',
       'Apoio em pronto-atendimento',
+      'Zelo pelos direitos do idoso conforme Estatuto do Idoso',
       'Observação e relato para a família'
     ]
   },
   {
     title: 'Cuidado Domiciliar para Idosos',
-    description: 'Ajuda nas rotinas diárias, mobilidade, prevenção de quedas, companhia, estímulo cognitivo e organização da rotina conforme orientações médicas.',
+    description: 'Curativos, administração de medicamentos e antibióticos, companhia, estímulo cognitivo e organização da rotina conforme orientações médicas.',
     items: [
-      'Ajuda nas rotinas diárias (alimentação, higiene, conforto)',
-      'Mobilidade e prevenção de quedas',
+      'Realização de curativos',
+      'Ministrar antibióticos e medicamentos prescritos',
       'Companhia e estímulo cognitivo',
-      'Organização básica da rotina'
+      'Organização da rotina de cuidados'
     ]
   },
   {
