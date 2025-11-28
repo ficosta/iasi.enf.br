@@ -47,3 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 html {
   scroll-behavior: smooth;
 }
+
+/* Fix Leaflet map z-index to stay below navbar and WhatsApp button */
+.leaflet-container,
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 0 !important;
+}
+
+.leaflet-control-container {
+  z-index: 1 !important;
+}

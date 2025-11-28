@@ -51,12 +51,13 @@ const Regions = () => {
           </div>
 
           {/* Map */}
-          <div className="rounded-3xl overflow-hidden border-2 border-neutral-100 shadow-xl h-[500px]">
+          <div className="rounded-3xl overflow-hidden border-2 border-neutral-100 shadow-xl h-[500px] relative z-0">
             <MapContainer
               center={centerPosition}
               zoom={11}
               style={{ height: '100%', width: '100%' }}
               scrollWheelZoom={false}
+              className="z-0"
             >
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
