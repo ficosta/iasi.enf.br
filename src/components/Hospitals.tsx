@@ -22,9 +22,19 @@ const Hospitals = () => {
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-neutral-900 mt-4 mb-6">
             Onde posso acompanhar
           </h2>
-          <p className="text-xl text-neutral-600 leading-relaxed">
-            Acompanhamento em hospitais, prontos-socorros e unidades de saúde, conforme normas de cada instituição. Consulte sobre a possibilidade de outros hospitais e clínicas!
+          <p className="text-xl text-neutral-600 leading-relaxed mb-6">
+            Acompanhamento em hospitais, prontos-socorros e unidades de saúde, conforme normas de cada instituição.
           </p>
+
+          {/* Highlight CTA */}
+          <div className="relative inline-block">
+            <div className="absolute inset-0 bg-secondary/20 blur-xl animate-pulse"></div>
+            <div className="relative bg-gradient-to-r from-secondary to-secondary-dark text-white px-6 py-4 rounded-2xl shadow-lg">
+              <p className="text-lg font-semibold">
+                ✨ Consulte sobre a possibilidade de outros hospitais e clínicas!
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Hospitals by City */}
