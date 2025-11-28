@@ -24,7 +24,6 @@ export const hospitals: Hospital[] = [
   // Cotia
   { name: 'Hospital Regional de Cotia (HRC)', city: 'Cotia', type: 'hospital' },
   { name: 'Hospital São Francisco de Cotia', city: 'Cotia', type: 'hospital' },
-  { name: 'PA Caucaia do Alto', city: 'Cotia', type: 'upa' },
   { name: 'Pronto-Socorro Infantil', city: 'Cotia', type: 'ps' },
 ];
 
