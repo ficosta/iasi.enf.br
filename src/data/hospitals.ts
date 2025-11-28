@@ -17,6 +17,8 @@ export const hospitals: Hospital[] = [
 
   // Taboão da Serra
   { name: 'Hospital Geral de Pirajussara', city: 'Taboão da Serra', type: 'hospital' },
+  { name: 'Hospital Family', city: 'Taboão da Serra', type: 'hospital' },
+  { name: 'Hospital Sancta Maggiore Butantã', city: 'Taboão da Serra', type: 'hospital' },
   { name: 'Unidade Mista de Taboão da Serra', city: 'Taboão da Serra', type: 'ps' },
   { name: 'UPA Dr. Akira Tada', city: 'Taboão da Serra', type: 'upa' },
   { name: 'Pronto Socorro Infantil', city: 'Taboão da Serra', type: 'ps' },
